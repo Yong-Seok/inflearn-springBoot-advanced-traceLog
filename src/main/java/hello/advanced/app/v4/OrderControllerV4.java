@@ -14,6 +14,7 @@ public class OrderControllerV4 {
 
     @GetMapping("/v4/request")
     public String request(String itemId) {
+        // Template Method Pattern
         AbstractTemplate<String> template = new AbstractTemplate<>(trace) {
             @Override
             protected String call() {
