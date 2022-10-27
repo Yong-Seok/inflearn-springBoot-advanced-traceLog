@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 public class OrderControllerV0 {
+    // 주석
     private final OrderServiceV0 orderServiceV0;
 
     @GetMapping("/v0/request")
